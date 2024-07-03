@@ -17,7 +17,7 @@ function HeadContent() {
       <meta name="description" content={String(metadata.description) || "Default Description"} />
       <meta property="og:title" content={String(metadata.title) || "Default Title"} />
       <meta property="og:description" content={String(metadata.description) || "Default Description"} />
-      <meta property="og:image" content="/default.png" />
+      <meta property="og:image" content="/default.png" key="og-image"  />
       <meta property="og:url" content="https://dev-bry.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
