@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <div className='h-full py-10  dark:bg-slate-950 w-full flex justify-center items-center'>
+    <div id='contact' className='h-full py-10  dark:bg-slate-950 w-full flex justify-center items-center'>
         <div className='flex flex-col px-4 md:px-0 md:flex-row items-center justify-center w-full max-w-7xl gap-4 md:gap-0'>
             <div className='flex-1 flex '>
                 <div className='flex flex-col md:flex-row items-center justify-center gap-4'>

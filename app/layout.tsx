@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dev-Bry",
   description: "Dev Bryan",
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 function HeadContent() {
