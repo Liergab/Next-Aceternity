@@ -32,10 +32,10 @@ export default AboutMe
 const SkeletonOne = () => {
   return (
     <div>
-      <p className="font-bold text-4xl text-white">OJT-CONNECT TEAM</p>
+      <p className="font-bold text-4xl text-white">My NextJs Portfolio</p>
       <p className="font-normal text-base text-white"></p>
       <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        This is me with the developers of the OJT-CONNECT Team.
+        Updated Portfolio Using Next Acceternity.
       </p>
     </div>
   );
@@ -82,7 +82,7 @@ const cards = [
     content: <SkeletonOne />,
     className: "md:col-span-2",
     thumbnail:
-      "/ojtconnect.png",
+      "/default.png",
   },
   {
     id: 2,
