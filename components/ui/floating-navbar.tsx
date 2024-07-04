@@ -15,6 +15,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import Image from "next/image";
 
 export const FloatingNav = ({
   navItems,
@@ -58,7 +59,7 @@ export const FloatingNav = ({
           animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
           transition={{ duration: 0.2 }}
           className={cn(
-            "bg-slate-200 border-slate-600 dark:bg-slate-900 flex w-full max-w-2xl fixed z-[5000] top-5 md:top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-4 p-4",
+            "bg-slate-200 border-slate-600 dark:bg-slate-900 flex w-[90%] md:w-full max-w-2xl fixed z-[5000] top-5 md:top-10 inset-x-0 mx-auto px-10 py-5 rounded-lg border border-black/.1 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] items-center justify-center space-x-2 md:space-x-4 p-4",
             className
           )}
           style={{
@@ -67,14 +68,16 @@ export const FloatingNav = ({
             border: "1px solid rgba(255, 255, 255, 0.125)",
           }}
         >
+          
           {navItems.map((navItem: any, idx: number) => {
             const Icon = navItem.Icon;
             return (
-              <Link
-                key={`link=${idx}`}
+              <div key={`link=${idx}`}>
+                
+                 <Link
                 href={navItem.link}
                 className={cn(
-                  "relative dark:text-neutral-50 items-center bg-slate-200 dark:bg-slate-900 flex md:space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+                  "relative dark:text-neutral-50 items-center bg-slate-200 dark:bg-slate-900 flex space-x-0 md:space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
                 )}
               >
                 <Tooltip>
@@ -92,6 +95,9 @@ export const FloatingNav = ({
                   {navItem.name}
                 </span>
               </Link>
+
+              </div>
+             
             );
           })}
         </motion.div>

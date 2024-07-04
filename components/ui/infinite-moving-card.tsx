@@ -89,7 +89,7 @@ export const InfiniteMovingCards = ({
           <li
             className="w-[350px] max-w-full relative rounded-2xl border  flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px] bg-slate-300 dark:bg-slate-900"
            
-            key={item.name}
+            key={idx}
           >
             <blockquote>
               <div

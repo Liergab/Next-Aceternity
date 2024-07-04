@@ -4,7 +4,7 @@ export const navItems = [
     { name: "About", link: "#about", Icon:LiaInfoSolid },
     {name:"Skills", link:"#skills",Icon:LiaReact},
     {name:"Tools", link:"#tools", Icon:LiaToolsSolid},
-    { name: "Projects", link: "#projects",Icon:LiaThemeco  },
+    { name: "Projects", link: "/project",Icon:LiaThemeco  },
     { name: "Testimonials", link: "#testimonials",Icon:LiaUserCheckSolid },
     { name: "Contact", link: "#contact",Icon:LiaIdCard}
  

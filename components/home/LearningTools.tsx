@@ -7,15 +7,15 @@ const LearningTools = () => {
     <div id="tools" className="h-full py-8 px-8 md:px-4 w-full dark:bg-slate-900 bg-white dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative flex flex-col items-center justify-center ">
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-slate-900   [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
       <div className=" w-full max-w-7xl mb-12 mt-12 space-y-4 text-left z-10 ">
-        <h1 className="text-5xl font-bold dark:text-white text-slate-900">
+        <h1 className="text-3xl md:text-5xl font-bold dark:text-white text-slate-900">
             Tools for {" "}
             <span className="text-indigo">Personal</span> &
         </h1>
-        <h1 className="text-5xl font-bold dark:text-white text-slate-950">
+        <h1 className="text-3xl md:text-5xl font-bold dark:text-white text-slate-950">
             Professional {" "}
             <span className="text-indigo">Improvement </span>
         </h1>
-        <p className="text-lg max-w-5xl">
+        <p className="text-sm text-slate-600 dark:text-white max-w-5xl">
             {`These tools have been incredibly powerful, facilitating self-exploration 
              and enhancing my skills and knowledge. Through hands-on experience, they have 
              played a pivotal role in shaping my journey of personal and professional development.`}

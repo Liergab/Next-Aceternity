@@ -9,8 +9,8 @@ const Techstack = () => {
     <div id='skills' className="h-full min-h-screen w-full px-8 md:px-4 dark:bg-slate-900 bg-white  dark:bg-grid-small-white/[0.3] bg-grid-small-black/[0.3] relative flex items-center justify-center">
     <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-slate-900 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
     <div className="w-full max-w-7xl mx-auto z-10 mt-20">
-      <h1 className="dark:text-indigo text-slate-950 text-lg md:text-6xl font-bold">Technical Skills</h1>
-      <p className="text-slate-950 dark:text-white mt-4 text-xl">
+      <h1 className="dark:text-indigo text-slate-950 text-3xl md:text-5xl font-bold">Technical Skills</h1>
+      <p className="text-slate-950 dark:text-white mt-4 test-sm md:text-xl">
           Below are the technologies I have utilized in my projects, as well as some I am familiar with and plan to use in the future.
       </p>
       <HoverEffect items={skills} />
