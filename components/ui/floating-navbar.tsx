@@ -16,6 +16,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 export const FloatingNav = ({
   navItems,
@@ -51,6 +52,10 @@ export const FloatingNav = ({
     }
   });
 
+  const pathname = usePathname()
+
+    const project =  pathname === '/project'
+
   return (
     <TooltipProvider>
       <AnimatePresence mode="wait">
@@ -75,7 +80,7 @@ export const FloatingNav = ({
               <div key={`link=${idx}`}>
                 
                  <Link
-                href={navItem.link}
+                href={`${project}` ? navItem.otherLink : navItem.link }
                 className={cn(
                   "relative dark:text-neutral-50 items-center bg-slate-200 dark:bg-slate-900 flex space-x-0 md:space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
                 )}
