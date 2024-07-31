@@ -1,5 +1,5 @@
 "use client"
-import { SiBootstrap, SiCss3, SiExpress, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMui, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiRedux, SiShadcnui, SiTailwindcss, SiTypescript, SiVuedotjs } from 'react-icons/si'
+import { SiBootstrap, SiCss3, SiExpress, SiFirebase, SiHtml5, SiJsonwebtokens, SiLaravel, SiMaterialdesign, SiMongodb, SiMui, SiMysql, SiNextdotjs, SiNodedotjs, SiPhp, SiPrisma, SiReact, SiReactquery, SiRedux, SiShadcnui, SiTailwindcss, SiTypescript, SiVuedotjs } from 'react-icons/si'
 
 import Link from 'next/link'
 import { DirectionAwareHover } from '@/components/ui/direction-aware-hover'
@@ -19,6 +19,13 @@ const Projectcomp = () => {
             tech:[SiNextdotjs, SiShadcnui, SiTailwindcss],
             link:'https://brygab.vercel.app/',
             cover:'/oldportfolio.png',
+            background:'bg-slate-900'
+        },
+        {
+            title:'Social Media App',
+            tech:[SiNextdotjs, SiShadcnui, SiTailwindcss, SiFirebase],
+            link:'https://next-x-twitter.vercel.app/',
+            cover:'/twitterclone.jpg',
             background:'bg-slate-900'
         },
         {
