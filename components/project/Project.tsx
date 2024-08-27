@@ -15,6 +15,13 @@ const Projectcomp = () => {
             background:'bg-slate-900'
         },
         {
+            title:'Rent-Room',
+            tech:[SiReact, SiReactquery, SiTailwindcss,SiExpress,SiNodedotjs],
+            link:'https://rent-room.onrender.com/',
+            cover:'/rent-room.jpg',
+            background:'bg-slate-900'
+        },
+        {
             title:'Old Portfolio 2023',
             tech:[SiNextdotjs, SiShadcnui, SiTailwindcss],
             link:'https://brygab.vercel.app/',
